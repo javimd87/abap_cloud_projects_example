@@ -6,5 +6,7 @@
 define view ZJMD_I_CONSULTANT as select from zjmd_consultant {
     
     key consultant_id,
-    name
+    @Semantics.text: true
+    name,
+    picture
 }

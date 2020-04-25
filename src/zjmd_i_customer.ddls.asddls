@@ -6,5 +6,6 @@
 define view ZJMD_I_CUSTOMER as select from zjmd_customer {//zjmd_customer
                                                           
    key customer_id,
+   @Semantics.text: true
    name 
 }

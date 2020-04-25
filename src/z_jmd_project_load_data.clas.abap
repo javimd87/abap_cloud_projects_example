@@ -23,14 +23,14 @@ METHOD if_oo_adt_classrun~main.
 ** CONSULTANTS ***
 
     lt_consultants = VALUE #(
-        ( consultant_id = '1' name = 'Juan Perez Sanchez' )
-        ( consultant_id = '2' name = 'Ruth Cortes Perez' )
-        ( consultant_id = '3' name = 'Luis Garcia Arreguín' )
-        ( consultant_id = '4' name = 'Rocio Gonzalez Sanchez' )
-        ( consultant_id = '5' name = 'Jaime Perez Gonzalez' )
-        ( consultant_id = '6' name = 'Sandra Garcia Perez' )
-        ( consultant_id = '7' name = 'Pablo Martin Lopez' )
-        ( consultant_id = '8' name = 'Lisset Rodriguez Lopez' )
+        ( consultant_id = '1' name = 'Juan Perez Sanchez' picture = 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' )
+        ( consultant_id = '2' name = 'Ruth Cortes Perez' picture = 'https://image.shutterstock.com/image-photo/beautiful-face-young-woman-clean-260nw-149962697.jpg' )
+        ( consultant_id = '3' name = 'Luis Garcia Arreguín' picture = 'https://image.shutterstock.com/image-photo/studio-shot-young-man-looking-260nw-372072697.jpg' )
+        ( consultant_id = '4' name = 'Rocio Gonzalez Sanchez' picture = 'https://images.generated.photos/sRF4IkhQconjjZMAvtRzHI4XhGJjlLZnFvofl7yHBAM/rs:fit:512:512/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Yz/XzA5OTUwNDMuanBn.jpg'  )
+        ( consultant_id = '5' name = 'Jaime Perez Gonzalez' picture = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCAQbhzsnyCIbnv_yUxE1b22eY9MlDaaQi7QGZJCLlmpA5ZZro&usqp=CAU' )
+        ( consultant_id = '6' name = 'Sandra Garcia Perez' picture = 'https://fashion.susoba.com/wp-content/uploads/2019/07/2019072517081544-1.jpg' )
+        ( consultant_id = '7' name = 'Pablo Martin Lopez' picture = 'https://static.artfido.com/2018/07/two-celebs-one-face-001.jpg' )
+        ( consultant_id = '8' name = 'Lisset Rodriguez Lopez' picture = 'https://www.uni-regensburg.de/Fakultaeten/phil_Fak_II/Psychologie/Psy_II/beautycheck/english/prototypen/w_sexy_gr.jpg' )
 
      ).
 
@@ -64,10 +64,10 @@ METHOD if_oo_adt_classrun~main.
     GET TIME STAMP FIELD DATA(lv_tmp).
 
     lt_projects = VALUE #(
-        ( project_id  = '1' customer_id = '2' begin_date = '20200101' end_date = '20201231' total_cost = '0'
+        ( project_id  = '1' customer_id = '2' begin_date = '20200101' end_date = '20201231' total_cost = '245000'
           currency_code = 'EUR' description = 'Interfaces Cesta de la Compra' status = 'O' created_by = cl_abap_context_info=>get_user_technical_name( ) created_at = lv_tmp
           last_changed_by = cl_abap_context_info=>get_user_technical_name( )  last_changed_at = lv_tmp )
-          ( project_id  = '2' customer_id = '5' begin_date = '20200101' end_date = '20211031' total_cost = '0'
+          ( project_id  = '2' customer_id = '5' begin_date = '20200101' end_date = '20211031' total_cost = '130200'
           currency_code = 'EUR' description = 'Swift Asset Power' status = 'O' created_by = cl_abap_context_info=>get_user_technical_name( ) created_at = lv_tmp
           last_changed_by = cl_abap_context_info=>get_user_technical_name( )  last_changed_at = lv_tmp )
 
