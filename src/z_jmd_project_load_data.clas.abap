@@ -70,6 +70,9 @@ METHOD if_oo_adt_classrun~main.
           ( project_id  = '2' customer_id = '5' begin_date = '20200101' end_date = '20211031' total_cost = '130200'
           currency_code = 'EUR' description = 'Swift Asset Power' status = 'O' created_by = cl_abap_context_info=>get_user_technical_name( ) created_at = lv_tmp
           last_changed_by = cl_abap_context_info=>get_user_technical_name( )  last_changed_at = lv_tmp )
+          ( project_id  = '3' customer_id = '3' begin_date = '20200101' end_date = '20200330' total_cost = '355000'
+          currency_code = 'EUR' description = 'S/4 conversion' status = 'D' created_by = cl_abap_context_info=>get_user_technical_name( ) created_at = lv_tmp
+          last_changed_by = cl_abap_context_info=>get_user_technical_name( )  last_changed_at = lv_tmp )
 
      ).
 
@@ -93,6 +96,8 @@ METHOD if_oo_adt_classrun~main.
           currency_code = 'EUR' skill = 'eFolder' )
           ( project_id = '2' member_id = '7' begin_date = '20200101' end_date = '20200306' cost_rate = '300'
           currency_code = 'EUR' skill = 'UI5' )
+          ( project_id = '3' member_id = '8' begin_date = '20200101' end_date = '20200306' cost_rate = '500'
+          currency_code = 'EUR' skill = 'S/4' )
 
 
      ).
