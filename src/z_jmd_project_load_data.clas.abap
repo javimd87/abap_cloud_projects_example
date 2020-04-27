@@ -64,13 +64,13 @@ METHOD if_oo_adt_classrun~main.
     GET TIME STAMP FIELD DATA(lv_tmp).
 
     lt_projects = VALUE #(
-        ( project_id  = '1' customer_id = '2' begin_date = '20200101' end_date = '20201231' total_cost = '245000'
+        ( project_id  = '1' customer_id = '2' begin_date = '20200101' end_date = '20201231' total_cost = '245000' actual_cost = '180000'
           currency_code = 'EUR' description = 'Interfaces Cesta de la Compra' status = 'O' created_by = cl_abap_context_info=>get_user_technical_name( ) created_at = lv_tmp
           last_changed_by = cl_abap_context_info=>get_user_technical_name( )  last_changed_at = lv_tmp )
-          ( project_id  = '2' customer_id = '5' begin_date = '20200101' end_date = '20211031' total_cost = '130200'
+          ( project_id  = '2' customer_id = '5' begin_date = '20200101' end_date = '20211031' total_cost = '130200' actual_cost = '10000'
           currency_code = 'EUR' description = 'Swift Asset Power' status = 'O' created_by = cl_abap_context_info=>get_user_technical_name( ) created_at = lv_tmp
           last_changed_by = cl_abap_context_info=>get_user_technical_name( )  last_changed_at = lv_tmp )
-          ( project_id  = '3' customer_id = '3' begin_date = '20200101' end_date = '20200330' total_cost = '355000'
+          ( project_id  = '3' customer_id = '3' begin_date = '20200101' end_date = '20200330' total_cost = '355000' actual_cost = '360000'
           currency_code = 'EUR' description = 'S/4 conversion' status = 'D' created_by = cl_abap_context_info=>get_user_technical_name( ) created_at = lv_tmp
           last_changed_by = cl_abap_context_info=>get_user_technical_name( )  last_changed_at = lv_tmp )
 

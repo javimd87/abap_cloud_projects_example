@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZJMD_ICUSTOMER'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #CHECK
+@AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Customer CDS View'
 define view ZJMD_I_CUSTOMER as select from zjmd_customer {//zjmd_customer
                                                           

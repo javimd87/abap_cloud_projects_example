@@ -41,6 +41,13 @@
      <DOMVALUE_L>C</DOMVALUE_L>
      <DDTEXT>Canceled</DDTEXT>
     </DD07V>
+    <DD07V>
+     <DOMNAME>ZD_JMD_STATUS</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>O</DOMVALUE_L>
+     <DDTEXT>Open</DDTEXT>
+    </DD07V>
    </DD07V_TAB>
   </asx:values>
  </asx:abap>
